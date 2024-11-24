@@ -15,7 +15,7 @@ ___
 ## Contenido
 
 1. **[Introducción](#1-introducción)**
-
+2. **[Asignación de Tareas](#2-asignación-de-tareas)**
 ___
 
 ## 1. Introducción
@@ -44,3 +44,20 @@ El sistema guarda el rendimiento de cada jugador, ordena los puntajes y los pres
     - Implementación de un sistema de validación para entradas del usuario, como evitar letras repetidas y garantizar nombres válidos.
 
 El código fuente está optimizado para ejecutarse en entornos de desarrollo integrados (IDEs) como [Visual Studio Code](https://code.visualstudio.com/), [CLion](https://www.jetbrains.com/clion/), y [Code::Blocks](http://www.codeblocks.org/).
+
+
+---
+
+## 2. Asignación de Tareas
+
+| **Área de Trabajo**          | **Responsable** | **Contribuciones**                                                                                                 | **Correcciones**                                                                                   |
+|------------------------------|-----------------|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| **Interfaz de Usuario**      | José            | Diseñó la pantalla inicial del juego, incluyendo la bienvenida, solicitud del nombre del jugador y reglas del juego. | Ajustó mensajes de bienvenida, reglas y validación del nombre del jugador para mayor claridad con ayuda de *Alexis* y *Wilder*.             |
+| **Configuración de Dificultad** | José         | Implementó la lógica para ajustar los intentos permitidos según el nivel de dificultad elegido (Normal o Difícil). | Refinó la lógica para evitar selecciones incorrectas de dificultad y valores fuera del rango ocn el aporte de *Wilder*.        |
+| **Sistema de Ranking**       | Wilder          | Desarrolló la funcionalidad de registro y visualización dinámica del ranking de jugadores basado en puntajes.     | Corrigió errores en la actualización de puntajes para reflejar correctamente los datos de cada partida. |
+| **Ordenamiento del Ranking** | Wilder          | Implementó un algoritmo de ordenamiento por burbuja para organizar las posiciones en el ranking según los puntajes. | Optimizó el algoritmo de ordenamiento para manejar correctamente los empates en puntajes.           |
+| **Manejo de Archivos**       | Alexis          | Programó la lectura de palabras desde archivos externos organizados por categorías, garantizando un acceso dinámico. | Verificó y corrigió errores de lectura en archivos mal formateados o vacíos.                       |
+| **Gestión de Memoria Dinámica** | Alexis       | Implementó el manejo de memoria dinámica para gestionar palabras seleccionadas aleatoriamente.                    | Ajustó la gestión de memoria para evitar fugas y mejorar la estabilidad del programa con el apoyo de *Wilder*.               |
+| **Lógica del Juego**         | Jairo           | Desarrolló la mecánica principal del juego, incluyendo validación de letras, intentos restantes y control de flujo. | Solucionó casos límite donde las letras ingresadas no eran validadas correctamente.                |
+| **Representación Visual**    | Jairo           | Diseñó el dibujo del muñeco del ahorcado, adaptando su progreso según el nivel de errores cometidos.              | Refinó el dibujo del ahorcado para mantener consistencia visual en diferentes niveles de dificultad. |
+

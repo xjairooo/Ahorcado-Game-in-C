@@ -18,7 +18,8 @@ ___
 
 1. **[Introducción](#1-introducción)**
 2. **[Asignación de Tareas](#2-asignación-de-tareas)**
-3. **[Mejoras Propuestas](#3-mejoras-propuestas)**
+3. **[Soluciones a Posibles Errores](#3-Soluciones-a-la-Compilación)**
+4. **[Mejoras Propuestas](#4-Mejoras-Propuestas)**
 ___
 
 ## 1. Introducción
@@ -71,7 +72,31 @@ El código fuente está optimizado para ejecutarse en entornos de desarrollo int
 - Jairo: 38 horas.
 
 ---
-## 3. Mejoras Propuestas
+## 3. Soluciones a la Compilación
+ **No Complila el Código en VSCODE:**
+   - En caso de que en VSCODE no compile el Código en consecuencia de la libreria <conio.h>, utilizar el IDE "Code::Blocks" en su version: 20.03.
+   - En caso de que al compilar el Código en Code::Blocks no muestre las secuencias ANSI correctamente, se Debera configurarlo manualmente.  
+***Pasos:***
+
+1. Abrir el registro de Windows:  
+    Presiona Win + R, escribe `regedit`, y presiona Enter.  
+    Navega a la siguiente clave:  
+    `"HKEY_CURRENT_USER\Console"`  
+    Busca un valor llamado `VirtualTerminalLevel`. Si no existe:  
+    - Haz clic derecho → Nuevo → Valor DWORD (32 bits).  
+    - Nómbralo `VirtualTerminalLevel`.  
+    - Establece su valor a `1`.  
+
+    Esto habilitará el soporte de secuencias ANSI de manera persistente en todas las consolas.  
+
+2. Reinicia la consola:  
+    - Cierra todas las ventanas de consola abiertas (cmd, PowerShell, etc.).  
+    - Abre una nueva consola para que los cambios surtan efecto.
+  
+
+
+---
+## 4. Mejoras Propuestas
 1. **Juego Bilingüe (Elección de Lenguaje):**
    - ***Implementación de selección de idioma:*** Puedo implementar una pantalla de inicio que permita al usuario seleccionar su idioma preferido, como inglés o español. Esto haría que el juego sea más accesible y personalizable según las preferencias del jugador.  
 2. **Incorporación del Motor OpenGL:**

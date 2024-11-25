@@ -17,7 +17,7 @@ ___
 
 1. **[Introducción](#1-introducción)**
 2. **[Asignación de Tareas](#2-asignación-de-tareas)**
-3. 
+3. **[Mejoras Propuestas](#3-mejoras-propuestas)**
 ___
 
 ## 1. Introducción

@@ -71,3 +71,5 @@ El código fuente está optimizado para ejecutarse en entornos de desarrollo int
    - ***Gráficos mejorados:*** Con OpenGL puedo mejorar la parte visual de mi juego, agregando gráficos para las letras, la representación del ahorcado y también incluir animaciones tanto para cuando el jugador gane como cuando pierda. 
 3. **Integracion de todos los archivos en uno:**
    - ***Unificación de datos para simplificar la gestión y optimizar el rendimiento del juego:*** Actualmente, el juego utiliza cinco archivos de texto separados para almacenar las palabras de cada categoría. La idea es integrar todo en un único archivo que contenga todas las categorías organizadas, usando un formato claro que permita identificar fácilmente a qué categoría pertenece cada palabra. Esto simplificaría la gestión de los datos y facilitaría las operaciones de lectura y escritura durante el juego.
+---
+<img src="https://st5.depositphotos.com/1826664/70743/i/450/depositphotos_707434086-stock-photo-gracias-text-written-colorful-background.jpg" width="950"/>

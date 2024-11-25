@@ -1,6 +1,7 @@
 # Ahorcado Game in C 🕹
-![Imagen de WhatsApp 2024-11-24 a las 22 15 15_43d49c8c](https://github.com/user-attachments/assets/46fe035b-ce3f-4caf-af00-a7fabb8d5788)
+![4](https://github.com/user-attachments/assets/d85d3b96-5058-46b3-b1dc-fdacc159c102)
 
+*made by Wilder.C*
 ## Integrantes
 
 - **Campero Jairo**

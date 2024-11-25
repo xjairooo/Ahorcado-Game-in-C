@@ -64,6 +64,12 @@ El código fuente está optimizado para ejecutarse en entornos de desarrollo int
 | **Lógica del Juego**         | Jairo           | Desarrolló la mecánica principal del juego, incluyendo validación de letras, intentos restantes y control de flujo. | Solucionó casos límite donde las letras ingresadas no eran validadas correctamente.                |
 | **Representación Visual**    | Jairo           | Diseñó el dibujo del muñeco del ahorcado, adaptando su progreso según el nivel de errores cometidos.              | Refinó el dibujo del ahorcado para mantener consistencia visual en diferentes niveles de dificultad. |
 
+**Horas de Programación de cada miembro:**
+- Wilder: 50 horas.
+- Alexis: 45 horas.
+- Jose: 40 horas.
+- Jairo: 38 horas.
+
 ---
 ## 3. Mejoras Propuestas
 1. **Juego Bilingüe (Elección de Lenguaje):**

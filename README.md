@@ -17,6 +17,7 @@ ___
 
 1. **[Introducción](#1-introducción)**
 2. **[Asignación de Tareas](#2-asignación-de-tareas)**
+3. 
 ___
 
 ## 1. Introducción
@@ -62,3 +63,11 @@ El código fuente está optimizado para ejecutarse en entornos de desarrollo int
 | **Lógica del Juego**         | Jairo           | Desarrolló la mecánica principal del juego, incluyendo validación de letras, intentos restantes y control de flujo. | Solucionó casos límite donde las letras ingresadas no eran validadas correctamente.                |
 | **Representación Visual**    | Jairo           | Diseñó el dibujo del muñeco del ahorcado, adaptando su progreso según el nivel de errores cometidos.              | Refinó el dibujo del ahorcado para mantener consistencia visual en diferentes niveles de dificultad. |
 
+---
+## 3. Mejoras Propuestas
+1. **Juego Bilingüe (Elección de Lenguaje):**
+   - ***Implementación de selección de idioma:*** Puedo implementar una pantalla de inicio que permita al usuario seleccionar su idioma preferido, como inglés o español. Esto haría que el juego sea más accesible y personalizable según las preferencias del jugador.  
+2. **Incorporación del Motor OpenGL:**
+   - ***Gráficos mejorados:*** Con OpenGL puedo mejorar la parte visual de mi juego, agregando gráficos para las letras, la representación del ahorcado y también incluir animaciones tanto para cuando el jugador gane como cuando pierda. 
+3. **Integracion de todos los archivos en uno:**
+   - ***Unificación de datos para simplificar la gestión y optimizar el rendimiento del juego:*** Actualmente, el juego utiliza cinco archivos de texto separados para almacenar las palabras de cada categoría. La idea es integrar todo en un único archivo que contenga todas las categorías organizadas, usando un formato claro que permita identificar fácilmente a qué categoría pertenece cada palabra. Esto simplificaría la gestión de los datos y facilitaría las operaciones de lectura y escritura durante el juego.

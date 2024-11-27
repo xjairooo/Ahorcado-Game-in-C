@@ -100,12 +100,12 @@ Gestiona la selección de palabras aleatorias desde archivos predefinidos según
 ### **1.5 Gestión de Partidas**
 Almacena, organiza, y presenta los datos de las partidas jugadas, como puntuaciones y palabras adivinadas.
 
-- [Documentación de **Palabras y Categorías**](https://github.com/xjairooo/Ahorcado-Game-in-C/wiki/1.-Estructura-General-del-Proyecto#15-gesti%C3%B3n-de-partidas)
+- [Documentación de **Gestión de Palabras **](https://github.com/xjairooo/Ahorcado-Game-in-C/wiki/1.-Estructura-General-del-Proyecto#15-gesti%C3%B3n-de-partidas)
 
 ### **1.6 Utilidades y Funciones Auxiliares**
 Contiene funciones de apoyo para tareas generales, como limpieza de pantalla, calculo de digitos, y formatos.
 
-- [Documentación de **Palabras y Categorías**](https://github.com/xjairooo/Ahorcado-Game-in-C/wiki/1.-Estructura-General-del-Proyecto#16-utilidades-y-funciones-auxiliares)
+- [Documentación de **Utilidades y Funciones Auxiliares **](https://github.com/xjairooo/Ahorcado-Game-in-C/wiki/1.-Estructura-General-del-Proyecto#16-utilidades-y-funciones-auxiliares)
 ---
 ## 4. Detalles Tecnicos
 ### **Estructura de Datos**
